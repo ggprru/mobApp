@@ -22,10 +22,6 @@ jobs:
           python -m pip install --upgrade pip
           pip install cython
 
-      - name: Install other dependencies
-        run: |
-          pip install -r requirements.txt
-
       - name: Build APK
         run: |
           # Ваша команда для сборки APK
